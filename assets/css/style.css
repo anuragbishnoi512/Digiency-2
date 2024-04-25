@@ -10,6 +10,34 @@
     transition: all 200ms linear !important;
 }
 
+:root {
+    --font-size-10: 10px;
+    --font-size-12: 12px;
+    --font-size-13: 13px;
+    --font-size-14: 14px;
+    --font-size-16: 16px;
+    --font-size-20: 20px;
+    --font-size-18: 18px;
+    --font-size-23: 23px;
+    --font-size-25: 25px;
+    --font-size-30: 30px;
+    --font-size-31: 31px;
+    --font-size-35: 35px;
+    --font-size-39: 39px;
+    --font-size-42: 42px;
+    --font-size-48: 48px;
+    --font-size-64: 64px;
+
+    --color-orange: #FF5300;
+    --color-grey: #373737;
+    --color-light-grey: #7B7B7B;
+    --color-white: #FFFFFF;
+    --color-light-pink: #FFF7F4;
+    --color-EFEF-white: #EFEFEF;
+    --color-light-blue: #00ACFF;
+
+}
+
 .container {
     max-width: 1170px;
     padding-left: 12px;
@@ -32,7 +60,7 @@
     z-index: 3;
     box-shadow: 0px 4px 35px 0px #00000014;
     padding: 10px 0;
-    background-color: #FFF7F4;
+    background-color: var(--color-white);
 }
 
 .d-flex {
@@ -53,17 +81,17 @@
 
 .digi-font {
     font-family: "Work Sans", sans-serif;
-    font-size: 39.06px;
+    font-size: var(--font-size-39);
     font-weight: 600;
     line-height: 48.28px;
-    color: #FF5300;
+    color: var(--color-orange);
 }
 
 .ency-font {
     font-family: "Work Sans", sans-serif;
     font-size: 39.06px;
     line-height: 45.77px;
-    color: #373737;
+    color: var(--color-grey);
 }
 
 .gap-38 {
@@ -76,33 +104,91 @@
 
 .nav-fonts {
     font-family: "Work Sans", sans-serif;
-    font-size: 20px;
+    font-size: var(--font-size-20);
     font-weight: 500;
     line-height: 24.72px;
-    color: #373737;
+    color: var(--color-grey);
 }
 
 .nav-fonts:hover {
-    color: #FF5300;
+    color: var(--color-orange);
+}
+
+.col-6 {
+    width: 50%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.pt-176 {
+    padding-top: 176px;
+}
+
+.pt-11 {
+    padding-top: 11px;
+}
+
+.mt-50 {
+    margin-top: 50px;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.pb-153 {
+    padding-bottom: 153px;
+}
+
+.bg-color-1 {
+    background-color: var(--color-light-pink);
 }
 
 .sec-1-txt {
     font-family: "Work Sans", sans-serif;
-    font-size: 48px;
+    font-size: var(--font-size-48);
     font-weight: 700;
     line-height: 59.33px;
-    color: #373737;
+    color: var(--color-grey);
+    max-width: 440px;
 }
 
 .sec-1-span {
     font-family: "Work Sans", sans-serif;
-    font-size: 48px;
+    font-size: var(--font-size-48);
     font-weight: 700;
     line-height: 59.33px;
-    color: #FF5300;
+    color: var(--color-orange);
 }
 
+.sec-1-para {
+    font-family: "Work Sans", sans-serif;
+    font-size: var(--font-size-16);
+    font-weight: 400;
+    line-height: 24.1px;
+    color: var(--color-light-grey);
+    max-width: 493px;
+}
 
+.contact-btn {
+    font-family: "Work Sans", sans-serif;
+    font-size: var(--font-size-20);
+    font-weight: 500;
+    line-height: 24.72px;
+    padding: 13px 19px;
+    border: 1px solid var(--color-orange);
+    background-color: var(--color-orange);
+    color: var(--color-white);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-btn:hover {
+    border: 1px solid var(--color-orange);
+    background-color: var(--color-white);
+    color: var(--color-orange);
+    text-shadow: 2px 2px 4px rgba(241, 93, 8, 0.5);
+}
 
 
 
