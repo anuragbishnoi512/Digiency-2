@@ -108,10 +108,29 @@
     font-weight: 500;
     line-height: 24.72px;
     color: var(--color-grey);
+    position: relative;
 }
 
 .nav-fonts:hover {
     color: var(--color-orange);
+}
+
+.nav-fonts::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #FF5300;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-fonts:hover::before {
+    visibility: visible;
+    transform: scaleX(1);
 }
 
 .col-6 {
@@ -140,8 +159,40 @@
     padding-bottom: 153px;
 }
 
+.pt-120 {
+    padding-top: 120px;
+}
+
 .bg-color-1 {
     background-color: var(--color-light-pink);
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.flex-direction-column {
+    flex-direction: column;
+}
+
+.gap-5 {
+    gap: 5px;
+}
+
+.position-relative {
+    position: relative;
+}
+
+.position-absolute {
+    position: absolute;
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
+
+.pt-83 {
+    padding-top: 83px;
 }
 
 .sec-1-txt {
@@ -190,9 +241,80 @@
     text-shadow: 2px 2px 4px rgba(241, 93, 8, 0.5);
 }
 
+.svg-box {
+    width: 40px;
+    height: 40px;
+    background-color: var(--color-white);
+    cursor: pointer;
+    box-shadow: 0px -4px 58px 12px #0000001a;
+}
 
+.svg-box:hover {
+    background-color: var(--color-orange);
+}
 
+.svg-box:hover span path {
+    fill: var(--color-white);
+}
 
+.svg-main-box {
+    right: -10%;
+    top: 35%;
+}
+
+.section-1:hover .svg-main-box {
+    right: 0;
+}
+
+.sec-2-para-1 {
+    font-family: "Work Sans", sans-serif;
+    font-size: var(--font-size-16);
+    font-weight: 400;
+    line-height: 24.1px;
+    color: var(--color-light-grey);
+}
+
+.sec-2-head-1 {
+    font-family: "Work Sans", sans-serif;
+    font-size: var(--font-size-39);
+    font-weight: 600;
+    line-height: 48.28px;
+    max-width: 494px !important;
+}
+
+.sec-2-head-span {
+    color: var(--color-orange);
+}
+
+.d-block {
+    display: block;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mb-25 {
+    margin-bottom: 25px;
+}
+
+.sec-2-para-2 {
+    font-family: " Work Sans", sans-serif;
+    font-size: var(--font-size-16);
+    font-weight: 400;
+    line-height: 24.1px;
+    color: var(--color-light-grey);
+    max-width: 515px;
+}
+
+.sec-2-para-3 {
+    font-family: " Work Sans", sans-serif;
+    font-size: var(--font-size-16);
+    font-weight: 400;
+    line-height: 24.1px;
+    color: var(--color-light-grey);
+    max-width: 480px;
+}
 
 
 
