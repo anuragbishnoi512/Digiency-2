@@ -187,7 +187,7 @@
     flex-direction: column;
 }
 
-.gap-5 {
+.ml .gap-5 {
     gap: 5px;
 }
 
@@ -682,13 +682,118 @@
     height: 100%;
 }
 
+.pb-25 {
+    padding-bottom: 25px;
+}
+
+.mt-7 {
+    margin-top: 7px;
+}
+
+.mb-23 {
+    margin-bottom: 23px;
+}
+
+.mb-125 {
+    margin-bottom: 125px;
+}
+
+.pb-60 {
+    padding-bottom: 60px;
+}
+
 .orange-layer-div-2:hover .orange-layer {
     top: 2%;
     left: 2%;
 }
 
+.clients-txt {
+    font-family: "Work Sans", sans-serif;
+    font-size: var(--font-size-16);
+    font-weight: 400;
+    line-height: 24.1px;
+    text-align: center;
+    color: var(--color-light-grey);
+}
 
+.some-txt {
+    font-family: "Work Sans", sans-serif;
+    font-size: var(--font-size-39);
+    font-weight: 600;
+    line-height: 48.28px;
+    text-align: center;
+}
 
+.great-txt {
+    color: var(--color-orange);
+}
+
+.justin-txt {
+    font-family: "Work Sans", sans-serif;
+    font-size: var(--font-size-25);
+    font-weight: 500;
+    line-height: 30.9px;
+    color: var(--color-white);
+}
+
+.ceo-txt {
+    font-family: "Work Sans", sans-serif;
+    font-size: var(--font-size-16);
+    font-weight: 400;
+    line-height: 24.1px;
+    color: var(--color-white);
+}
+
+.slide-box {
+    background-color: var(--color-orange);
+    max-width: 470px;
+    padding: 34px 35px 25px 65px;
+}
+
+.slide-para-txt {
+    font-family: " Work Sans", sans-serif;
+    font-size: var(--font-size-16);
+    font-weight: 400;
+    line-height: 24.1px;
+    color: var(--color-white);
+}
+
+.slider-pf-img-1 {
+    top: 12%;
+    left: -8%;
+}
+
+.slick-dots li.slick-active button:before {
+    opacity: 0;
+}
+
+.slick-dots li.slick-active {
+    background-color: var(--color-grey);
+    width: 49px;
+    height: 15px;
+    border-radius: 7.5px;
+    z-index: 5;
+    position: relative;
+    opacity: 100;
+}
+
+.slick-dots li button::before,
+.slick-dots li,
+slick-dots li button {
+    width: 15px;
+    height: 15px;
+    background-color: var(--color-orange);
+    opacity: 100%;
+    border-radius: 50px;
+    font-size: 0;
+    transition: all 0.4s linear;
+}
+.slick-dots{
+    bottom: -60px !important;
+}
+.slick-prev , .slick-next{
+    display: none;
+}
 
 
 
