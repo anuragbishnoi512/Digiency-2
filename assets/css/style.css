@@ -145,6 +145,12 @@
     padding-right: 12px;
 }
 
+.col-4 {
+    width: 33.33%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
 .pt-176 {
     padding-top: 176px;
 }
@@ -573,14 +579,113 @@
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
 
+.sec-4-txt {
+    font-family: "Work Sans", sans-serif;
+    font-size: var(--font-size-16);
+    font-weight: 400;
+    line-height: 24.1px;
+    text-align: center;
+    color: var(--color-light-grey);
+}
 
+.sec-4-h2 {
+    font-family: " Work Sans", sans-serif;
+    font-size: var(--font-size-39);
+    font-weight: 600;
+    line-height: 48.28px;
+    text-align: center;
+}
 
+.sec-4-h2-span {
+    color: var(--color-orange);
+}
 
+.gap-43 {
+    gap: 43px;
+}
 
+.mb-60 {
+    margin-bottom: 60px;
+}
 
+.pt-188 {
+    padding-top: 188px;
+}
 
+.pt-25 {
+    padding-top: 25px;
+}
 
+.pb-18 {
+    padding-bottom: 18px;
+}
 
+.pb-47 {
+    padding-bottom: 47px;
+}
+
+.pb-120 {
+    padding-bottom: 120px;
+}
+
+.sec-4-scroll-txt {
+    font-family: "Work Sans", sans-serif;
+    font-size: var(--font-size-20);
+    font-weight: 500;
+    line-height: 24.72px;
+    text-align: center;
+    cursor: pointer;
+    color: var(--color-light-grey);
+}
+
+.sec-4-scroll-txt:hover {
+    color: var(--color-orange);
+}
+
+.layer-txt {
+    font-family: "Work Sans", sans-serif;
+    font-size: var(--font-size-25);
+    font-weight: 500;
+    line-height: 30.9px;
+    text-align: left;
+    color: var(--color-white);
+}
+
+.layer-txt-2 {
+    font-family: " Work Sans", sans-serif;
+    font-size: var(--font-size-16);
+    font-weight: 400;
+    text-align: left;
+    line-height: 24.1px;
+    color: var(--color-white);
+}
+
+.orange-layer {
+    width: 100%;
+    height: 100%;
+    background-color: var(--color-orange);
+    font-family: "Work Sans", sans-serif;
+    font-size: var(--font-size-16);
+    font-weight: 400;
+    line-height: 24.1px;
+    position: absolute;
+    opacity: 70%;
+}
+
+.orange-layer-div-1:hover .orange-layer {
+    top: 2.2%;
+    left: 2.5%;
+
+}
+
+.h-100 {
+    height: 100%;
+}
+
+.orange-layer-div-2:hover .orange-layer {
+    top: 2%;
+    left: 2%;
+}
 
 
 
