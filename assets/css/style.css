@@ -57,7 +57,7 @@
 .navbar {
     position: fixed;
     width: 100%;
-    z-index: 3;
+    z-index: 7;
     box-shadow: 0px 4px 35px 0px #00000014;
     padding: 10px 0;
     background-color: var(--color-white);
@@ -187,7 +187,7 @@
     flex-direction: column;
 }
 
-.ml .gap-5 {
+.gap-5 {
     gap: 5px;
 }
 
@@ -831,13 +831,156 @@ slick-dots li button {
 }
 
 .stellar-txt {
-    font-family:" Work Sans",sans-serif;
+    font-family: " Work Sans", sans-serif;
     font-size: var(--font-size-25);
     font-weight: 500;
     line-height: 30.9px;
     max-width: 306px;
     color: var(--color-grey);
 }
+
+.wester-txt {
+    font-family: "Work Sans", sans-serif;
+    font-size: var(--font-size-20);
+    font-weight: 500;
+    line-height: 24.72px;
+    color: var(--color-grey);
+}
+
+.january-txt {
+    font-family: "Work Sans", sans-serif;
+    font-size: var(--font-size-20);
+    font-weight: 500;
+    line-height: 24.72px;
+    color: var(--color-light-grey);
+}
+
+.dot-circle {
+    width: 5px;
+    height: 5px;
+    background-color: var(--color-light-grey);
+    border-radius: 50px;
+}
+
+.gap-10 {
+    gap: 10px;
+}
+
+.gap-8 {
+    gap: 8px;
+}
+
+.gap-70 {
+    gap: 70px;
+}
+
+.py-25 {
+    padding: 25px;
+}
+
+.gap-18 {
+    gap: 18px;
+}
+
+.mt-38 {
+    margin-top: 38px;
+}
+
+.gap-18 {
+    gap: 18px;
+}
+.mb-44{
+    margin-bottom: 40px;
+}
+.slider-box-shadow {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.slick-list {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.contact-us-txt {
+    font-family: "Work Sans", sans-serif;
+    font-size: var(--font-size-16);
+    font-weight: 400;
+    line-height: 24.1px;
+    text-align: center;
+    color: var(--color-light-grey);
+}
+
+.feel-txt {
+    font-family: "Work Sans", sans-serif;
+    font-size: var(--font-size-39);
+    font-weight: 600;
+    line-height: 48.28px;
+    text-align: center;
+}
+
+.feel-txt-org {
+    color: var(--color-orange);
+}
+
+.circle-5 {
+    width: 75px;
+    height: 75px;
+    border-radius: 50px;
+    background-color: var(--color-orange);
+}
+
+.drop-txt {
+    font-family: "Work Sans", sans-serif;
+    font-size: var(--font-size-25);
+    font-weight: 500;
+    line-height: 30.9px;
+    color: var(--color-orange);
+}
+
+.mail-txt {
+    font-family: "Work Sans", sans-serif;
+    font-size: var(--font-size-31);
+    font-weight: 600;
+    line-height: 38.62px;
+    color: var(--color-grey);
+}
+
+.support-gmail {
+    font-family: "Work Sans", sans-serif;
+    font-size: var(--font-size-20);
+    font-weight: 500;
+    line-height: 24.72px;
+    color: var(--color-light-grey);
+}
+
+.support-gmail-2 {
+    font-family: " Work Sans", sans-serif;
+    font-size: var(--font-size-20);
+    font-weight: 500;
+    line-height: 24.72px;
+    color: var(--color-light-grey);
+}
+
+.box-5 {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    padding: 20px;
+    height: 230px;
+}
+
+.tollfree-txt {
+    font-family: "Work Sans", sans-serif;
+    font-size: var(--font-size-20);
+    font-weight: 500;
+    line-height: 24.72px;
+    color: var(--color-orange);
+}
+
+
+
+
+
+
+
 
 
 
