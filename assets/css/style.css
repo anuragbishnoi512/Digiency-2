@@ -889,9 +889,11 @@ slick-dots li button {
 .gap-18 {
     gap: 18px;
 }
-.mb-44{
+
+.mb-44 {
     margin-bottom: 40px;
 }
+
 .slider-box-shadow {
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
@@ -967,6 +969,10 @@ slick-dots li button {
     height: 230px;
 }
 
+.box-5:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
 .tollfree-txt {
     font-family: "Work Sans", sans-serif;
     font-size: var(--font-size-20);
@@ -975,8 +981,62 @@ slick-dots li button {
     color: var(--color-orange);
 }
 
+.slick-slide {
+    margin-right: 30px;
+}
 
+.send-txt {
+    font-family: "Work Sans", sans-serif;
+    font-size: var(--font-size-31);
+    font-weight: 600;
+    line-height: 38.62px;
+}
 
+.message-txt {
+    color: var(--color-orange);
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.mt-18 {
+    margin-top: 18px;
+}
+
+.mb-29 {
+    margin-bottom: -29px;
+}
+
+.mt-123 {
+    margin-top: 123px;
+}
+
+.send-message {
+    resize: none;
+    border: none;
+    font-family: " Work Sans", sans-serif;
+    font-size: var(--font-size-16);
+    font-weight: 400;
+    line-height: 24.1px;
+    text-align: left;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    padding: 18px;
+    outline: none;
+    color: var(--color-light-grey);
+}
+
+.name-holder {
+    font-family: "Work Sans", sans-serif;
+    font-size: var(--font-size-16);
+    font-weight: 400;
+    line-height: 24.1px;
+    border: none;
+    outline: none;
+    padding: 18px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    color: var(--color-light-grey);
+}
 
 
 
