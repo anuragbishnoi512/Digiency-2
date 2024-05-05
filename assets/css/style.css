@@ -1061,20 +1061,19 @@ slick-dots li button {
     color: var(--color-orange);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#canvas-for-googlemap img {
+    max-height: none;
+    max-width: none !important;
+    background: none !important;
+}
+.google-map{
+    max-width: 100%;
+    list-style: none;
+    transition: none;
+    overflow: hidden;
+    width: 1170px;
+    height: 450px;
+}
 
 
 
