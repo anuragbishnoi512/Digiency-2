@@ -1278,6 +1278,10 @@ slick-dots li button {
     display: none;
 }
 
+.align-items-start {
+    align-items: start;
+}
+
 @media (max-width:1200px) {
     .nav-menu {
         width: 40px;
@@ -1646,7 +1650,9 @@ slick-dots li button {
     .sm-w-100 {
         width: 100%;
     }
-
+.sm-align-items-center{
+    align-items: center;
+}
     .stellar-txt {
         font-family: "Work Sans", sans-serif;
         font-size: var(--font-size-16);
